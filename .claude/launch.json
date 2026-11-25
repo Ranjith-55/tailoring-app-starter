@@ -1,0 +1,19 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "tailoring-app-dev",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "tailoring-app", "run", "dev"],
+      "port": 3000,
+      "autoPort": true
+    },
+    {
+      "name": "mannvaasal-stories-dev",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["--prefix", "/home/lenovo/Downloads/mannvaasal-stories", "run", "dev"],
+      "port": 5173,
+      "autoPort": true
+    }
+  ]
+}
